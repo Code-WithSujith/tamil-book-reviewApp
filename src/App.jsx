@@ -1,6 +1,6 @@
 
 import './App.css';
-import { Header } from './component';
+import { Header, MainNavbar } from './component';
 import AllRoutes from './routes/AllRoutes';
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
   return (
     <div>
       <Header/>
+      <MainNavbar/>
       <AllRoutes/>
     </div>
   )
