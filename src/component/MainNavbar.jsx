@@ -4,10 +4,10 @@ import { FaSearch } from "react-icons/fa";
 import { FaUser } from "react-icons/fa";
 export function MainNavbar() {
     return (
-        <nav className="navbar bg-light navbar-expand-md navbar-light ">
+        <nav className="navbar bg-light navbar-expand-md navbar-light mt-5">
             <div className="container-fluid">
-                <div className="d-flex align-items-center">
-                    <img src={KarkaThamizha} alt="" className="logo navbar-brand" />
+                <div className="d-flex align-items-center ps-4">
+                    <img src={KarkaThamizha} alt="" className="logo navbar-brand w-200" style={{ width: "300px", height: "auto" }}  />
                 </div>
 
                 <div className="d-flex align-items-center gap-3 ms-auto">

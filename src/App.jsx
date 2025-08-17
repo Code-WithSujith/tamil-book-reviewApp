@@ -1,6 +1,6 @@
 
 import './App.css';
-import { Banner, Header, MainNavbar } from './component';
+import { Banner, Footer, Header, MainNavbar } from './component';
 import AllRoutes from './routes/AllRoutes';
 
 function App() {
@@ -10,7 +10,8 @@ function App() {
       <Header/>
       <MainNavbar/>
       <Banner/>
-      <AllRoutes/>
+      <Footer/>
+      {/* <AllRoutes/> */}
     </div>
   )
 }
