@@ -56,26 +56,6 @@ export function CardComponent() {
                         ))}
                     </ul>
 
-                    {/* <ul className="nav nav-tabs mb-5 d-flex">
-                    {tabs.map((tab) =>(
-                        <li key={tab} className="nav-item">
-                            <button className="nav-link"> 
-                                {tab} NEWS
-                            </button>
-                        </li>
-                    ))}
-                     </ul> */}
-
-                    {/* <li className="nav-item bg-danger">
-                        <a className="nav-link fw-bold text-light " href="#">popular News</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link fw-bold " href="#">Recent News</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link fw-bold " href="#">Sport News</a>
-                    </li> */}
-
                     <SideBarNews />
                     <SideBarNews />
                     <SideBarNews />

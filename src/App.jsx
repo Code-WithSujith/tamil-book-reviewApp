@@ -1,17 +1,11 @@
-
 import './App.css';
-import { Banner, Footer, Header, MainNavbar } from './component';
-import AllRoutes from './routes/AllRoutes';
+import { Layout } from './component/Layout';
 
 function App() {
 
   return (
     <div>
-      <Header/>
-      <MainNavbar/>
-      <Banner/>
-      <Footer/>
-      {/* <AllRoutes/> */}
+      <Layout/>
     </div>
   )
 }

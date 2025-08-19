@@ -1,1 +1,4 @@
-import { Home } from "./Home";
+export { Home } from "./Home";
+export {CategorySection} from "./CategorySection";
+export {TopReviews} from "./TopReviews";
+export {Authorsection} from "./Authorsection";

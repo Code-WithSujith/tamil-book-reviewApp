@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 
 export function Header() {
   return (
-    <header className="container-fluid bg-dark text-white py-2 fixed-top">
+    <header className="container-fluid bg-dark text-white py-2">
       <div className="row align-items-center">
         <div className="col-1 text-center border-end fw-bold fs-5">
           Hot News
