@@ -1,0 +1,9 @@
+.flip-text {
+  display: inline-block;
+  transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
+}
+
+.flip {
+  transform: rotateX(90deg);
+  opacity: 0;
+}

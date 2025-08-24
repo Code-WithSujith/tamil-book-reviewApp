@@ -2,6 +2,7 @@ import BookBanner_1 from "../assets/BookBanner_1.jpg";
 import BookBanner_2 from "../assets/BookBanner_2.jpg";
 import BookBanner_3 from "../assets/BookBanner_3.jpg";
 import { CardComponent } from "./MainCardContent";
+import { TopNewsContent } from "./TopNewsContent";
 
 export function Banner() {
     return (
@@ -32,6 +33,7 @@ export function Banner() {
 
         </div>
         <CardComponent/>
+        <TopNewsContent/>
         </div>
     )
 }

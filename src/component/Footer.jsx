@@ -14,22 +14,22 @@ export function Footer() {
           <p>EMail: karkathamizha@gmail.com</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi dolores id quaerat voluptatum non! Asperiores cum quidem sapiente minus earum.</p>
           
-          <div className="border-top pt-3">
+          <div className="pt-3">
             <h4 className="text-danger fw-bold">Social Icons</h4>
             <div className="d-flex gap-3 mt-3">
-            <a href="#" className="d-flex justify-content-center align-items-center bg-danger text-white fs-5 rounded" style={{ width: "35px", height: "35px" }}>
+            <a href="#" className="d-flex justify-content-center align-items-center bg-danger text-white fs-5 " style={{ width: "35px", height: "35px", borderRadius:"2px"}}>
               <FaFacebookF />
             </a>
-            <a href="#" className="d-flex justify-content-center align-items-center bg-danger text-white fs-5 rounded" style={{ width: "35px", height: "35px" }}>
+            <a href="#" className="d-flex justify-content-center align-items-center bg-danger text-white fs-5 " style={{ width: "35px", height: "35px", borderRadius:"2px" }}>
               <FaTwitter />
             </a>
-            <a href="#" className="d-flex justify-content-center align-items-center bg-danger text-white fs-5 rounded" style={{ width: "35px", height: "35px" }}>
+            <a href="#" className="d-flex justify-content-center align-items-center bg-danger text-white fs-5 " style={{ width: "35px", height: "35px", borderRadius:"2px" }}>
               <FaInstagram />
             </a>
-            <a href="#" className="d-flex justify-content-center align-items-center bg-danger text-white fs-5 rounded" style={{ width: "35px", height: "35px" }}>
+            <a href="#" className="d-flex justify-content-center align-items-center bg-danger text-white fs-5 " style={{ width: "35px", height: "35px", borderRadius:"2px" }}>
               <FaVk />
             </a>
-            <a href="#" className="d-flex justify-content-center align-items-center bg-danger text-white fs-5 rounded" style={{ width: "35px", height: "35px" }}>
+            <a href="#" className="d-flex justify-content-center align-items-center bg-danger text-white fs-5 " style={{ width: "35px", height: "35px", borderRadius:"2px" }}>
               <FaPinterestP />
             </a>
           </div>
@@ -38,7 +38,7 @@ export function Footer() {
         </div>
 
         <div className="col-md-4 border-end">
-          <div className="border-bottom">
+
             <h4 className="text-danger fw-bold">Awards-2025</h4>
           <ul>
             <li>Best Novel of 2024</li>
@@ -50,10 +50,10 @@ export function Footer() {
             <li>Best Translation – Essay (2024)</li>
 
           </ul>
-          </div>
+
           <div className="mt-3">
             <h4 className="text-danger fw-bold">Witters</h4>
-            <h6>2025 Trustable Writters</h6>
+            <h6 className="ps-3">2025 Trustable Writters</h6>
           </div>
         </div>
 

@@ -3,8 +3,8 @@ import { FaHeart, FaEye, FaComment } from "react-icons/fa";
 export function MetaInfo() {
     return (
         <div>
-            <div className="d-flex justify-content-between">
-                <small className="fw-bold">by amir khan</small>
+            {/* <div className="d-flex justify-content-between"> */}
+                {/* <small className="fw-bold">by amir khan</small> */}
                 <div className="d-flex align-items-center text-muted">
                     <FaHeart className="me-1 text-danger" />
                     <span className="me-1">570</span>
@@ -15,7 +15,7 @@ export function MetaInfo() {
                     <FaComment className="me-1"/>
                     <span>200</span>
                 </div>
-            </div>
+            {/* </div> */}
         </div>
     )
 }
