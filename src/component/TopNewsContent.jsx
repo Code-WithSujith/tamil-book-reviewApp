@@ -3,7 +3,6 @@ import cardBook_2 from "../assets/cardBook_2.jpg";
 import cardBook_3 from "../assets/cardBook_3.jpg";
 import { Interviews } from "./Interviews";
 import { MetaInfo } from "./MetaInfo";
-import { SideBarNews } from "./SideBarNews";
 
 export function TopNewsContent() {
   return (
@@ -68,6 +67,7 @@ export function TopNewsContent() {
         {/* Interveiws Part */}
           <Interviews/> 
       </div>
+      
     </div>
   )
 }

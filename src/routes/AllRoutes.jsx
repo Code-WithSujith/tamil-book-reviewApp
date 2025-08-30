@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import { Home, CategorySection, TopReviews, Authorsection } from "../pages";
+import { Home, CategorySection, TopReviews, Authorsection, BookDetails } from "../pages";
 
 
 function AllRoutes() {
@@ -10,6 +10,7 @@ function AllRoutes() {
         <Route path="Category" element={<CategorySection/>}/>
         <Route path="TopReview" element={<TopReviews/>}/>
         <Route path="Author" element={<Authorsection/>}/>
+        <Route path="BookDetail" element={<BookDetails/>}/>
       </Routes>
     </div>
   )
