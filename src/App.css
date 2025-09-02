@@ -1,9 +1,24 @@
+/* style for header hot news flip */
 .flip-text {
   display: inline-block;
   transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
 }
-
 .flip {
   transform: rotateX(90deg);
   opacity: 0;
+}
+
+/* style for main card title */
+.nav-title {
+  color: black !important;
+  text-decoration: none !important;
+}
+.nav-title:hover {
+  color: red !important;
+}
+
+/* style for sharp badge */
+.sharp-badge {
+  border-radius: 0 !important; /* removes rounding */
+  padding: 0.5em 0.75em; /* optional: adjust spacing */
 }

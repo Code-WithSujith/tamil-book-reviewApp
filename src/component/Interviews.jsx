@@ -2,7 +2,7 @@ import { SideBarNews } from "./SideBarNews";
 
 export function Interviews() {
     return (
-        <div className="col-md-4 ps-3">
+        <div className="col-md-4 ps-5">
             <div className="w-100">
                 <button className="w-100 py-2 fw-bold bg-danger text-white border-0">
                     <span>INTERVIEWS</span>

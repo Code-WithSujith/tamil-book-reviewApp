@@ -5,7 +5,7 @@ export function BottomCardComponent() {
   return (
     <div className="container">
         <div className="row">
-             <BottomCard/>
+             <BottomCard />
             {/* <Interviews/> */}
 
         </div>

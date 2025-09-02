@@ -15,7 +15,7 @@ export function CardComponent() {
         <div className="container mt-5 mb-3">
             <div className="row">
 
-                <div className="col-md-8">
+                <div className="col-md-8 border-end">
                     <div className="card-title">
                         <div className="d-flex align-items-center justify-content-between">
                             <h3 className="fw-bold">Latest World News</h3>

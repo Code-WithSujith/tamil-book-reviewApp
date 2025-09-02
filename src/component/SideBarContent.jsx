@@ -7,7 +7,7 @@ export function SideBarContent() {
     const [activeTab, setActiveTab] = useState("Popular");
 
     return (
-        <div className="col-md-4 ps-3">
+        <div className="col-md-4 ps-5">
             <div className="d-flex">
                 {tabs.map((tab) => (
                     <button
