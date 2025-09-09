@@ -3,6 +3,7 @@
   display: inline-block;
   transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
 }
+
 .flip {
   transform: rotateX(90deg);
   opacity: 0;
@@ -13,12 +14,104 @@
   color: black !important;
   text-decoration: none !important;
 }
+
 .nav-title:hover {
   color: red !important;
 }
 
 /* style for sharp badge */
 .sharp-badge {
-  border-radius: 0 !important; /* removes rounding */
-  padding: 0.5em 0.75em; /* optional: adjust spacing */
+  border-radius: 0 !important;
+  /* removes rounding */
+  padding: 0.5em 0.75em;
+  /* optional: adjust spacing */
+}
+
+/* image zoom effect */
+.zoom-img {
+  transition: transform 0.4s ease-in-out, box-shadow 0.3s ease-in-out;
+  border-radius: 10px;
+  /* smooth corners */
+}
+
+.zoom-img:hover {
+  transform: scale(1.1) rotate(1deg);
+  /* zoom + slight tilt */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  /* add depth */
+  cursor: pointer;
+}
+
+
+/*  */
+.icon-box {
+  position: relative;
+  background-color: #e74c3c;
+  padding: 6px;
+  border-radius: none;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  min-width: 40px;
+  /* keeps icons square */
+}
+
+.icon-value {
+  position: absolute;
+  top: 100%;
+  /* directly below */
+  left: 50%;
+  /* center horizontally */
+  transform: translateX(-50%) translateY(10px);
+  min-width: 120px;
+  /* ensures enough space for long text */
+  background-color: #e74c3c;
+  color: white;
+  font-size: 14px;
+  padding: 6px 10px;
+  text-align: center;
+  /* border-radius: 4px; */
+  white-space: nowrap;
+  /* keep text in one line */
+
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  z-index: 5;
+}
+
+.icon-box:hover .icon-value {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
+
+
+.custom-input {
+  background-color: #2c2c2c;
+  color: white;
+  border: 1px solid #444;
+  border-radius: 0px 0 0 0px;
+}
+
+.custom-input::placeholder {
+  color: white; /* placeholder white */
+  opacity: 0.8;
+}
+
+.custom-input:focus {
+  box-shadow: none !important; /* remove blue glow */
+  border-color: #444;          /* keep same border */
+  outline: none;
+}
+
+.send-btn {
+  background-color: #e74c3c;
+  border-radius: 0 0px 0px 0;
+}
+
+.send-btn:focus,
+.send-btn:hover {
+  background-color: #e74c3c; /* disable hover effect */
+  box-shadow: none !important;
 }

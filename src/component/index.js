@@ -12,3 +12,5 @@ export {TopNewsContent} from "./TopNewsContent";
 export {Interviews} from "./Interviews";
 export {BottomCard} from "./BottomCard";
 export {BottomCardComponent} from "./BottomCardComponent";
+export {Login} from "./Login";
+export {ChildrenCard} from "./ChildrenCard";

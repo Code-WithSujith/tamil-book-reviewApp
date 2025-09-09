@@ -10,7 +10,7 @@ export function TopNewsContent() {
       <div className="row pb-3">
         <div className="col-md-4 ">
           <div className="d-flex pt-3 border-bottom pb-2 ">
-            <img src={cardBook_1} alt="book1" className="img-fluid rounded me-3" style={{ height: "100px", width: "70px" }} />
+            <img src={cardBook_1} alt="book1" className="img-fluid rounded me-3 zoom-img" style={{ height: "100px", width: "70px" }} />
             <div>
               <span className="badge bg-primary mb-2 sharp-badge">Story</span>
               <h6 className="fw-bold">Another Beautiful Story Another Beautiful Story</h6>
@@ -19,7 +19,7 @@ export function TopNewsContent() {
           </div>
 
           <div className="d-flex pt-3 border-bottom pb-2 border-top">
-            <img src={cardBook_3} alt="book1" className="img-fluid rounded me-3" style={{ height: "100px", width: "70px" }} />
+            <img src={cardBook_3} alt="book1" className="img-fluid rounded me-3 zoom-img" style={{ height: "100px", width: "70px" }} />
             <div>
               <span className="badge bg-primary mb-2 sharp-badge">Poetry</span>
               <h6 className="fw-bold">Inspiring Life Journey Inspiring Life Journey</h6>
@@ -28,7 +28,7 @@ export function TopNewsContent() {
           </div>
 
           <div className="d-flex pt-3 border-bottom pb-2  border-top">
-            <img src={cardBook_2} alt="book1" className="img-fluid rounded me-3" style={{ height: "100px", width: "70px" }} />
+            <img src={cardBook_2} alt="book1" className="img-fluid rounded me-3 zoom-img" style={{ height: "100px", width: "70px" }} />
             <div>
               <span className="badge bg-primary mb-2 sharp-badge">Novel</span>
               <h6 className="fw-bold">Adventure of the Unknown Adventure of the Unknown</h6>
@@ -38,7 +38,7 @@ export function TopNewsContent() {
         </div>
         <div className="col-md-4 border-end">
           <div className="d-flex pt-3 border-bottom pb-2 ">
-            <img src={cardBook_3} alt="book1" className="img-fluid rounded me-3" style={{ height: "100px", width: "70px" }} />
+            <img src={cardBook_3} alt="book1" className="img-fluid rounded me-3 zoom-img" style={{ height: "100px", width: "70px" }} />
             <div>
               <span className="badge bg-primary mb-2 sharp-badge">Novel</span>
               <h6 className="fw-bold">Adventure of the Unknown Adventure of the Unknown</h6>
@@ -47,7 +47,7 @@ export function TopNewsContent() {
           </div>
 
           <div className="d-flex pt-3 border-bottom pb-2  border-top">
-            <img src={cardBook_2} alt="book1" className="img-fluid rounded me-3" style={{ height: "100px", width: "70px" }} />
+            <img src={cardBook_2} alt="book1" className="img-fluid rounded me-3 zoom-img" style={{ height: "100px", width: "70px" }} />
             <div>
               <span className="badge bg-primary mb-2 sharp-badge">Poetry</span>
               <h6 className="fw-bold">Another Beautiful Story Another Beautiful Story</h6>
@@ -56,7 +56,7 @@ export function TopNewsContent() {
           </div>
 
           <div className="d-flex pt-3 border-bottom pb-2  border-top">
-            <img src={cardBook_1} alt="book1" className="img-fluid rounded me-3" style={{ height: "100px", width: "70px" }} />
+            <img src={cardBook_1} alt="book1" className="img-fluid rounded me-3 zoom-img" style={{ height: "100px", width: "70px" }} />
             <div>
               <span className="badge bg-primary mb-2 sharp-badge">story</span>
               <h6 className="fw-bold">Inspiring Life Journey Inspiring Life Journey</h6>

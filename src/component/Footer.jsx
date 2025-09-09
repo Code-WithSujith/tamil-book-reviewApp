@@ -7,7 +7,7 @@ import KarkaThamizha from "../assets/KarkaThamizha.svg";
 
 export function Footer() {
   return (
-    <div className="container-fluid bg-dark p-5 text-white">
+    <div className="container-fluid bg-dark p-3 text-white">
       <div className="row">
         <div className="col-md-4 border-end">
           <h4 className="text-danger fw-bold">Contact Us</h4>
@@ -39,14 +39,6 @@ export function Footer() {
         </div>
 
         <div className="col-md-4 border-end">
-          <div className="text-center p-2 bg-danger">
-            <img
-              src={KarkaThamizha}
-              alt="logo"
-              className="navbar-brand"
-              style={{ width: "250px", height: "auto" }}
-            />
-          </div>
 
           <h4 className="text-danger fw-bold pt-2">Awards-2025</h4>
           <ul>
@@ -59,11 +51,31 @@ export function Footer() {
             <li>Best Translation – Essay (2024)</li>
 
           </ul>
-
+          {/* 
           <div className="mt-3">
             <h4 className="text-danger fw-bold">Witters</h4>
             <h6 className="ps-3">2025 Trustable Writters</h6>
+          </div> */}
+          <div className="mt-3">
+            <h4 className="text-danger fw-bold">Subscribe</h4>
+            <p className="ps-3">
+              Want to be notified when we launch a new template or an update? Just sign up
+              and we'll send you a notification by email.
+            </p>
+
+            <div className="d-flex mt-2">
+              <input
+                type="email"
+                className="form-control custom-input"
+                placeholder="Your Email"
+              />
+              <button
+                className="btn send-btn fw-bold text-white ms-2"
+              >SEND</button>
+            </div>
           </div>
+
+
         </div>
 
         <div className="col-md-4">
