@@ -35,28 +35,28 @@ export function MainNavbar() {
                         </NavLink>
                     </li>
                     <li className="nav-item me-2">
-                        <NavLink to="/Category" className="nav-link">
-                            Categories
+                        <NavLink to="/Review" className="nav-link">
+                            Review
                         </NavLink>
                     </li>
                     <li className="nav-item me-2">
-                        <NavLink to="/TopReview" className="nav-link">
-                            TopReviews
+                        <NavLink to="/Writers" className="nav-link">
+                            Writers
                         </NavLink>
                     </li>
                     <li className="nav-item me-2">
-                        <NavLink to="/Author" className="nav-link">
-                            Authors
+                        <NavLink to="/Release" className="nav-link">
+                            Release
                         </NavLink>
                     </li>
                     <li className="nav-item me-2">
-                        <NavLink to="/TopReview" className="nav-link">
-                            Contact
+                        <NavLink to="/Events" className="nav-link">
+                            Events
                         </NavLink>
                     </li>
                     <li className="nav-item me-2">
-                        <NavLink to="/TopReview" className="nav-link">
-                            About
+                        <NavLink to="/Others" className="nav-link">
+                            Others
                         </NavLink>
                     </li>
 

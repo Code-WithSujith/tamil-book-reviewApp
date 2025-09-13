@@ -1,6 +1,8 @@
 export { Home } from "./Home";
-export {CategorySection} from "./CategorySection";
-export {TopReviews} from "./TopReviews";
-export {Authorsection} from "./Authorsection";
+export {Review} from "./Review";
+export {Writers} from "./Writers";
+export {Release} from "./Release";
+export {Events} from "./Events";
+export {Others} from "./Others";
 export {BookDetails} from "./BookDetails";
 export {BookReview} from "./BookReview";

@@ -45,12 +45,20 @@ export function BookReview() {
             </p>
 
             {/* Action Icons */}
-            <div className="d-flex gap-3 mt-4">
-              <FaUniversity className="text-danger" size={20} />
-              <FaClock className="text-danger" size={20} />
-              <FaTag className="text-danger" size={20} />
-              <FaComment className="text-danger" size={20} />
-              <FaHeart className="text-danger" size={20} />
+            <div className="d-flex justify-content-between align-items-center mt-4">
+              {/* Icons */}
+              <div className="d-flex gap-3">
+                <FaUniversity className="text-danger" size={20} />
+                <FaClock className="text-danger" size={20} />
+                <FaTag className="text-danger" size={20} />
+                <FaComment className="text-danger" size={20} />
+                <FaHeart className="text-danger" size={20} />
+              </div>
+
+              {/* More Button */}
+              <button className="btn btn-danger btn-sm px-3 rounded">
+                More
+              </button>
             </div>
           </div>
         </div>
