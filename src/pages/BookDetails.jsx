@@ -1,5 +1,5 @@
 import { useLocation } from "react-router-dom";
-// import book_background from "../assets/book_background.webp";
+import book_background from "../assets/book_background.webp";
 import { FaStar, FaArrowUp } from "react-icons/fa";
 
 export function BookDetails() {
@@ -12,8 +12,8 @@ export function BookDetails() {
       <div
         className="position-relative text-white"
         style={{
-          // backgroundImage: `url(${book_background})`,
-          backgroundImage: "url('https://picsum.photos/1200/400?blur')",
+          backgroundImage: `url(${book_background})`,
+          // backgroundImage: "url('https://picsum.photos/1200/400?blur')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           minHeight: "350px",

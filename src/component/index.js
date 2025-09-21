@@ -14,3 +14,4 @@ export {BottomCard} from "./BottomCard";
 export {BottomCardComponent} from "./BottomCardComponent";
 export {Login} from "./Login";
 export {ChildrenCard} from "./ChildrenCard";
+export {FollowUs} from "./FollowUs";

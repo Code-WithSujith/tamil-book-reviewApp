@@ -1,6 +1,7 @@
 
 import { BottomCard } from "./BottomCard";
 import { ChildrenCard } from "./ChildrenCard";
+import { FollowUs } from "./FollowUs";
 import { Interviews } from "./Interviews";
 
 export function BottomCardComponent() {
@@ -12,7 +13,8 @@ export function BottomCardComponent() {
       </div>
       <div className="row mt-3">
         <ChildrenCard/>
-        <Interviews />
+        <FollowUs/>
+        {/* <Interviews /> */}
       </div>
     </div>
   )

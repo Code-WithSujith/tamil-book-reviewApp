@@ -97,7 +97,7 @@ export function BottomCard() {
 
 
             <div className="col-md-4  border-end">
-                <div className="d-flex pt-3 border-bottom pb-2">
+                <div className="d-flex  border-bottom pb-2">
                     <img
                         src={cardBook_1}
                         alt="book1"

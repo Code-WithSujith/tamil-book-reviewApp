@@ -115,3 +115,35 @@
   background-color: #e74c3c; /* disable hover effect */
   box-shadow: none !important;
 }
+
+
+
+/* Show dropdown on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Dropdown menu styling */
+.custom-menu {
+  background-color: black;
+  border-radius: 0;       /* sharp corners */
+  border: none;
+  margin-top: 0;          /* tight to toggle */
+  min-width: 160px;       /* short box size */
+  padding: 0;             /* no extra padding */
+}
+
+/* Dropdown items */
+.custom-item {
+  color: white;
+  padding: 5px 15px;
+}
+
+.custom-item:hover {
+  background-color: rgb(172, 5, 5);
+  color: white;
+}
+
+.custom-toggle:hover {
+  color: red !important;    /* slightly darker on hover */
+}

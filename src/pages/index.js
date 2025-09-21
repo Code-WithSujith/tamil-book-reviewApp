@@ -6,3 +6,4 @@ export {Events} from "./Events";
 export {Others} from "./Others";
 export {BookDetails} from "./BookDetails";
 export {BookReview} from "./BookReview";
+export {AuthorReview} from "./AuthorReview";

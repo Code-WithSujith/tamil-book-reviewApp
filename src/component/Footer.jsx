@@ -7,7 +7,7 @@ import KarkaThamizha from "../assets/KarkaThamizha.svg";
 
 export function Footer() {
   return (
-    <div className="container-fluid bg-dark p-3 text-white">
+    <div className="container-fluid bg-dark py-4 px-5 text-white mt-3">
       <div className="row">
         <div className="col-md-4 border-end">
           <h4 className="text-danger fw-bold">Contact Us</h4>

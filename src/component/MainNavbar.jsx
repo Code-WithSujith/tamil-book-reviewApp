@@ -7,7 +7,7 @@ import { Login } from "./Login";
 
 export function MainNavbar() {
 
-    const [showLoginModal,setShowLoginModal] = useState(false);
+    const [showLoginModal, setShowLoginModal] = useState(false);
     return (
         <nav className="navbar navbar-expand bg-light shadow-sm">
             <div className="container-fluid">
@@ -34,34 +34,110 @@ export function MainNavbar() {
                             Home
                         </NavLink>
                     </li>
-                    <li className="nav-item me-2">
-                        <NavLink to="/Review" className="nav-link">
+                    <li className="nav-item dropdown me-2 custom-dropdown">
+                        <NavLink to="#" className="nav-link dropdown-toggle custom-toggle" role="button">
                             Review
                         </NavLink>
+                        <ul className="dropdown-menu custom-menu">
+                            <li>
+                                <NavLink to="/Review" className="dropdown-item custom-item">
+                                    Writers
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink to="/Review" className="dropdown-item custom-item">
+                                    Readers
+                                </NavLink>
+                            </li>
+                        </ul>
                     </li>
-                    <li className="nav-item me-2">
-                        <NavLink to="/Writers" className="nav-link">
+                    <li className="nav-item dropdown me-2 custom-dropdown">
+                        <NavLink
+                            to="#" className="nav-link dropdown-toggle custom-toggle" role="button">
                             Writers
                         </NavLink>
+                        <ul className="dropdown-menu custom-menu">
+                            <li>
+                                <NavLink to="/writers" className="dropdown-item custom-item">
+                                    Author List
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink to="/writers/series" className="dropdown-item custom-item">
+                                    Series
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink to="/writers/interviews" className="dropdown-item custom-item">
+                                    Interviews
+                                </NavLink>
+                            </li>
+                        </ul>
                     </li>
-                    <li className="nav-item me-2">
-                        <NavLink to="/Release" className="nav-link">
+                    <li className="nav-item dropdown me-2 custom-dropdown">
+                        <NavLink to="#" className="nav-link dropdown-toggle custom-toggle" role="button">
                             Release
                         </NavLink>
+                        <ul className="dropdown-menu custom-menu">
+                            <li>
+                                <NavLink to="/Release" className="dropdown-item custom-item">
+                                    Pre-Release Plan
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink to="/Release" className="dropdown-item custom-item">
+                                    Special Discount
+                                </NavLink>
+                            </li>
+                        </ul>
                     </li>
-                    <li className="nav-item me-2">
-                        <NavLink to="/Events" className="nav-link">
+                    <li className="nav-item me-2 dropdown custom-dropdown">
+                        <NavLink to="#" className="nav-link dropdown-toggle custom-toggle" role="button">
                             Events
                         </NavLink>
+                        <ul className="dropdown-menu custom-menu">
+                            <li>
+                                <NavLink to="/Events" className="dropdown-item custom-item">
+                                    Bool Fair
+                                </NavLink>
+                                <li>
+                                <NavLink to="/Events" className="dropdown-item custom-item">
+                                    Bool Launch Ceremony
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink to="/Events" className="dropdown-item custom-item">
+                                    Award Ceremony
+                                </NavLink>
+                            </li>
+                            </li>
+                        </ul>
                     </li>
-                    <li className="nav-item me-2">
-                        <NavLink to="/Others" className="nav-link">
+                    <li className="nav-item me-2 dropdown custom-dropdown">
+                        <NavLink to="#" className="nav-link dropdown-toggle custom-dropdown" role="button">
                             Others
                         </NavLink>
+                        <ul className="dropdown-menu custom-menu"> 
+                            <li>
+                                <NavLink to="/Others" className="dropdown-item custom-item">
+                                    About Us
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink to="/Others" className="dropdown-item custom-item">
+                                    Contact
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink to="/Others" className="dropdown-item custom-item">
+                                    Your Opinion
+                                </NavLink>
+                            </li>
+                        </ul>
                     </li>
 
                     {/* Icons */}
-                    <li className="nav-item me-2">
+                    <li className="nav-item me-2 ">
                         <NavLink to="#" className="nav-link">
                             <FaSearch />
                         </NavLink>
@@ -70,10 +146,10 @@ export function MainNavbar() {
                         <button className="nav-link" onClick={() => setShowLoginModal(true)}>
                             <FaUser title="login" />
                         </button>
-
                         {showLoginModal && <Login onClose={() => setShowLoginModal(false)} />}
                     </li>
                 </ul>
+
             </div>
         </nav>
     );

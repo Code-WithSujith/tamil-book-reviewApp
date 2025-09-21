@@ -6,7 +6,7 @@ import { MetaInfo } from "./MetaInfo";
 export function ChildrenCard() {
   return (
     <>
-      <div className="col-md-2">
+      <div className="col-md-2 mt-5">
         <div className="card zoom-img mb-2" style={{ overflow: "hidden", position: "relative" }}>
           <img
             src={cardBook_2}
@@ -29,10 +29,10 @@ export function ChildrenCard() {
           </span>
         </div>
       </div>
-      <div className="col-md-2">
+      <div className="col-md-2 mt-5">
         <div className="card zoom-img mb-2" style={{ overflow: "hidden", position: "relative" }}>
           <img
-            src={cardBook_2}
+            src={cardBook_1}
             alt="book1"
             className="card-img-top"
             style={{ height: "230px", objectFit: "cover" }}
@@ -52,10 +52,10 @@ export function ChildrenCard() {
           </span>
         </div>
       </div>
-      <div className="col-md-2">
+      <div className="col-md-2 mt-5">
         <div className="card zoom-img mb-2" style={{ overflow: "hidden", position: "relative" }}>
           <img
-            src={cardBook_2}
+            src={cardBook_3}
             alt="book1"
             className="card-img-top"
             style={{ height: "230px", objectFit: "cover" }}
@@ -75,7 +75,7 @@ export function ChildrenCard() {
           </span>
         </div>
       </div>
-      <div className="col-md-2 border-end">
+      <div className="col-md-2 border-end mt-5">
         <div className="card zoom-img mb-2" style={{ overflow: "hidden", position: "relative" }}>
           <img
             src={cardBook_2}
