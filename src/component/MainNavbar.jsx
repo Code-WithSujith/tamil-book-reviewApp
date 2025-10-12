@@ -97,12 +97,12 @@ export function MainNavbar() {
                         </NavLink>
                         <ul className="dropdown-menu custom-menu">
                             <li>
-                                <NavLink to="/Events" className="dropdown-item custom-item">
-                                    Bool Fair
+                                <NavLink to="/BookFairs" className="dropdown-item custom-item">
+                                    Book Fair
                                 </NavLink>
                                 <li>
                                 <NavLink to="/Events" className="dropdown-item custom-item">
-                                    Bool Launch Ceremony
+                                    Book Launch Ceremony
                                 </NavLink>
                             </li>
                             <li>

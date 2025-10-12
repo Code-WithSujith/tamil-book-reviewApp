@@ -32,7 +32,7 @@ const AuthorCard = ({ author, onMoreClick }) => {
           </div>
 
           <div className="flex-grow-1">
-            <NavLink to="/AuthorReview" state={{ authorData: author }}><h5 className="card-title fw-bold text-dark mb-2">{author.name}</h5></NavLink>
+            <NavLink to="/AuthorReview" state={{ authorData: author }} className="fw-bold text-dark nav-title"><h5 className="card-title fw-bold mb-2">{author.name}</h5></NavLink>
             <p className="text-muted small mb-0" style={{ lineHeight: '1.5' }}>
               {author.description}
             </p>

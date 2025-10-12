@@ -3,6 +3,7 @@ import blur_banner from "../assets/blur_banner.jpg";
 import KarkaThamizhaImage from "../assets/KarkaThamizhaImage.png";
 
 import { FaArrowUp, FaChevronDown, FaChevronRight, FaStar, FaStarHalfAlt, FaCalendarAlt, FaEye, FaPlus } from "react-icons/fa";
+import { NavLink } from 'react-router-dom';
 
 const CategorySection = ({ category, isExpanded, onToggle }) => {
   const renderStars = (rating) => {
@@ -90,7 +91,10 @@ const CategorySection = ({ category, isExpanded, onToggle }) => {
                         className="text-decoration-none"
                         style={{ color: '#2c3e50' }}
                       >
-                        <h6 className="mb-1 fw-bold">{book.title}</h6>
+                        
+                        <NavLink to="/CategoryBookDetail" className="fw-bold text-dark nav-title">
+                          <h6 className="mb-1 fw-bold">{book.title}</h6>
+                        </NavLink>
                         <small className="text-muted">by {book.author}</small>
                       </a>
                     </td>

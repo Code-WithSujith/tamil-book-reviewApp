@@ -7,3 +7,5 @@ export {Others} from "./Others";
 export {BookDetails} from "./BookDetails";
 export {BookReview} from "./BookReview";
 export {AuthorReview} from "./AuthorReview";
+export {CategoryBookDetail} from "./CategoryBookDetail";
+export {BookFairs} from "./BookFairs";
