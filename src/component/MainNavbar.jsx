@@ -63,7 +63,7 @@ export function MainNavbar() {
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink to="/writers/series" className="dropdown-item custom-item">
+                                <NavLink to="/AuthorSeries" className="dropdown-item custom-item">
                                     Series
                                 </NavLink>
                             </li>

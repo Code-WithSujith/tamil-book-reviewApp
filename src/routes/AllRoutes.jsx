@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import { Home, BookDetails, BookReview, Review, Writers, Release, Events, Others, AuthorReview, CategoryBookDetail, BookFairs } from "../pages";
+import { Home, BookDetails, BookReview, Review, Writers, Release, Events, Others, AuthorReview, CategoryBookDetail, BookFairs, AuthorsSeries } from "../pages";
 import { ScrollToTop } from "../component/ScrollToTop";
 import { Login } from "../component";
 
@@ -12,6 +12,7 @@ function AllRoutes() {
         <Route path="/" element={<Home />} />
         <Route path="/Review" element={<Review />} />
         <Route path="/Writers" element={<Writers />} />
+        <Route path="/AuthorSeries" element={<AuthorsSeries/>}></Route>
         <Route path="/Release" element={<Release />} />
         <Route path="/Events" element={<Events/>} />
         <Route path="/Others" element={<Others/>} />

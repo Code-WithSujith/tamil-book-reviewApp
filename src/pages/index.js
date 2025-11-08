@@ -9,3 +9,4 @@ export {BookReview} from "./BookReview";
 export {AuthorReview} from "./AuthorReview";
 export {CategoryBookDetail} from "./CategoryBookDetail";
 export {BookFairs} from "./BookFairs";
+export {AuthorsSeries} from "./AuthorsSeries";
